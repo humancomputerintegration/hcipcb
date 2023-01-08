@@ -12,10 +12,10 @@ git clone https://github.com/humancomputerintegration/hcipcb.git
 
 2. In the main window of KiCAD, go to **Preferences > Manage Symbol Libraries > Global Libraries tab**
 3. Click **Add existing library to table** (folder icon near the bottom)
-4. Select **`hcipcb.kicad_sym`** from the cloned repository. Click Ok and the symbol library is added!
+4. Select **`hcipcb23.kicad_sym`** from the cloned repository. Click Ok and the symbol library is added!
 5. In the main window of KiCAD, go to **Preferences > Manage Footprint Libraries > Global Libraries tab**
 6. Click **Add existing library to table** (same icon as with Symbol Libraries)
-7. Select the **`hcipcb.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
+7. Select the **`hcipcb23.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
 8. In the main window of KiCAD, go to **Preferences > Configure Paths**
 9. **Create a new environmental variable** (+ button on bottom-left) with the **name `HCIPCB_3D`** and **path as the `hcipcb/3D` directory** (e.g. `/Users/username/hcipcb/3D`). This helps load the 3D models for footprints.
 
