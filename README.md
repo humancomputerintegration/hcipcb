@@ -12,7 +12,7 @@ git clone https://github.com/humancomputerintegration/hcipcb.git
 
 2. In the main window of KiCAD, go to **Preferences > Manage Symbol Libraries > Global Libraries tab**
 3. Click **Add existing library to table** (folder icon near the bottom)
-4. Select **`hcipcb.lib`** from the cloned repository. Click Ok and the symbol library is added!
+4. Select **`hcipcb.kicad_sym`** from the cloned repository. Click Ok and the symbol library is added!
 5. In the main window of KiCAD, go to **Preferences > Manage Footprint Libraries > Global Libraries tab**
 6. Click **Add existing library to table** (same icon as with Symbol Libraries)
 7. Select the **`hcipcb.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
