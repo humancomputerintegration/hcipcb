@@ -4,20 +4,28 @@ KiCAD library with custom parts for [CMSC 23230/33230: Engineering Interactive E
 
 ## Setup
 
-1. Clone this repository:
+Clone this repository:
 
 ```
 git clone https://github.com/humancomputerintegration/hcipcb.git
 ```
 
-2. In the main window of KiCAD, go to **Preferences > Manage Symbol Libraries > Global Libraries tab**
-3. Click **Add existing library to table** (folder icon near the bottom)
-4. Select **`hcipcb23.kicad_sym`** from the cloned repository. Click Ok and the symbol library is added!
-5. In the main window of KiCAD, go to **Preferences > Manage Footprint Libraries > Global Libraries tab**
-6. Click **Add existing library to table** (same icon as with Symbol Libraries)
-7. Select the **`hcipcb23.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
-8. In the main window of KiCAD, go to **Preferences > Configure Paths**
-9. **Create a new environmental variable** (+ button on bottom-left) with the **name `HCIPCB23_LIB`** and **path as the `hcipcb` directory** (e.g. `/Users/username/hcipcb`). This helps load the 3D models for footprints.
+### 1. add symbol library (.kicad_sym)
+
+1. In the main window of KiCAD, go to **Preferences > Manage Symbol Libraries > Global Libraries tab**
+2. Click **Add existing library to table** (folder icon near the bottom)
+3. Select **`hcipcb23.kicad_sym`** from the cloned repository. Click Ok and the symbol library is added!
+
+### 2. add footprint library (.pretty folder)
+
+1. In the main window of KiCAD, go to **Preferences > Manage Footprint Libraries > Global Libraries tab**
+2. Click **Add existing library to table** (same icon as with Symbol Libraries)
+3. Select the **`hcipcb23.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
+
+### 3. configure 3D model path (3D folder)
+
+1. In the main window of KiCAD, go to **Preferences > Configure Paths**
+2. **Create a new environmental variable** (+ button on bottom-left) with the **name `HCIPCB23_LIB`** and **path as the `hcipcb` directory** (e.g. `/Users/username/hcipcb`). This helps load the 3D models for footprints.
 
 ## Verifying set up
 
