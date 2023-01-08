@@ -17,13 +17,13 @@ git clone https://github.com/humancomputerintegration/hcipcb.git
 6. Click **Add existing library to table** (same icon as with Symbol Libraries)
 7. Select the **`hcipcb23.pretty` folder** from the cloned repository. Click Ok and the footprint library is added!
 8. In the main window of KiCAD, go to **Preferences > Configure Paths**
-9. **Create a new environmental variable** (+ button on bottom-left) with the **name `HCIPCB_3D`** and **path as the `hcipcb/3D` directory** (e.g. `/Users/username/hcipcb/3D`). This helps load the 3D models for footprints.
+9. **Create a new environmental variable** (+ button on bottom-left) with the **name `HCIPCB23_LIB`** and **path as the `hcipcb` directory** (e.g. `/Users/username/hcipcb`). This helps load the 3D models for footprints.
 
 ## Verifying set up
 
 1. **Open a new schematic** (`.sch`) file or re-open an existing one
 2. **Add a new symbol** (Place > Place Symbol > click on schematic)
-3. You should see **hcipcb** as a new category. **Place the USB4085-GF-A** onto the schematic. This is the USB connector we'll be using.
+3. You should see **hcipcb23** as a new category. **Place the USB4085-GF-A** onto the schematic. This is the USB connector we'll be using. Annotate it as "J1".
 4. Go to **Tools > Update PCB from Schematic**, and place the USB4085-GF-A footprint onto the board.
 5. Ensure the 3D model for the USB connector is loaded by going to **View > 3D Viewer**
 
