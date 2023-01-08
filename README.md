@@ -33,7 +33,7 @@ git clone https://github.com/humancomputerintegration/hcipcb.git
 2. **Add a new symbol** (Place > Place Symbol > click on schematic)
 3. You should see **hcipcb23** as a new category. **Place the USB4085-GF-A** onto the schematic. This is the USB connector we'll be using. Annotate it as "J1".
 4. Go to **Tools > Update PCB from Schematic**, and place the USB4085-GF-A footprint onto the board.
-5. Ensure the 3D model for the USB connector is loaded by going to **View > 3D Viewer**
+5. Ensure the 3D model for the USB connector is loaded by going to **View > 3D Viewer** (selected model will turn green)
 
 ## Questions?
 
