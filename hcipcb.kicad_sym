@@ -1344,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Switch/Slide/SSSS8/SSSS810701.html"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/15/SSSS8-1370998.pdf"
 			(at 16.51 0 0)
 			(effects
 				(font
