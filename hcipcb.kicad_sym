@@ -458,6 +458,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MF" "DFRobot"
@@ -1081,6 +1082,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "SJ1-3523N_0_0"
