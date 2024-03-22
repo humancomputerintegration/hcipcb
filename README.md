@@ -30,9 +30,15 @@ git clone https://github.com/humancomputerintegration/hcipcb.git
 ## Verifying set up
 
 1. **Open a new schematic** (`.sch`) file or re-open an existing one
+
 2. **Add a new symbol** (Place > Place Symbol > click on schematic)
+
 3. You should see **hcipcb** as a new category. To make it easier for the future, you can right click and **Pin Library** so it always appear on top. **Place the USB4105-GF-A** onto the schematic. This is the USB connector we'll be using. Annotate it as "J1".
+
+   ![Pin Library](./images/pin_library.png)
+
 4. Go to **Tools > Update PCB from Schematic**, and place the USB4105-GF-A footprint onto the board.
+
 5. Ensure the 3D model for the USB connector is loaded by going to **View > 3D Viewer** (selected model will turn green)
 
 ## Questions?
