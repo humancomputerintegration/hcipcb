@@ -127,7 +127,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.15,
@@ -137,7 +137,7 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.33,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -459,7 +459,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hcipcb23-jlc-template.kicad_pro",
+    "filename": "hcipcb-jlc-template.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -476,9 +476,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.6858,
-        "via_drill": 0.3302,
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
