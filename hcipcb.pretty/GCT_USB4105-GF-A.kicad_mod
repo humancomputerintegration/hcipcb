@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "hcipcb:GCT_USB4105-GF-A"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

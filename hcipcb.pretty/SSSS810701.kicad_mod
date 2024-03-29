@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "hcipcb:SSSS810701"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
