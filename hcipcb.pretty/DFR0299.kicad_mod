@@ -1,10 +1,10 @@
 (footprint "DFR0299"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -7.225 -11.235 0)
+		(at -4.5 -5.5 0)
 		(layer "F.SilkS")
 		(uuid "23ac5291-49b1-4923-b152-b8ad016d352e")
 		(effects
@@ -15,25 +15,13 @@
 		)
 	)
 	(property "Value" "MODULE_DFR0299"
-		(at -1.51 11.065 0)
+		(at 2.75 -11.5 0)
 		(layer "F.Fab")
 		(uuid "4d8f4f48-2666-45f3-bc5a-d05c71cc8885")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "30705bf6-6d5b-4227-86f5-4f388cd83cb4")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -102,6 +92,28 @@
 		(layer "F.SilkS")
 		(uuid "c3e20dfd-da0d-49ca-85ab-901e36d18f22")
 	)
+	(fp_rect
+		(start -7 -4)
+		(end 7 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "60cbde18-bf91-4656-b9e0-e7ea9f3aba40")
+	)
+	(fp_arc
+		(start 2.031019 -10.16)
+		(mid 0 -8.128981)
+		(end -2.031019 -10.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ea1deb0-b018-4f31-b903-b4f100e1fefd")
+	)
 	(fp_circle
 		(center -10.8 -8.89)
 		(end -10.7 -8.89)
@@ -109,7 +121,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "14d869fd-4852-4ea1-8d33-d91afe2459de")
 	)
@@ -200,9 +212,35 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1322c2b0-6ff2-44a4-9c76-9a04b9083b9b")
+	)
+	(fp_text user "microSD card"
+		(at -5.25 11.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0cfcefbb-3add-4b1f-b455-a90157b3dc84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user ">"
+		(at -13.25 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "938a523e-f6b5-43c9-a350-482e502a8302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at -9.017 -8.89)
@@ -348,6 +386,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "bab78a91-797b-4cb7-b94b-acbe20dba14f")
 	)
+	(embedded_fonts no)
 	(model "${HCIPCB_LIB}/3D/DFR0299.step"
 		(offset
 			(xyz 0 0 0)
