@@ -96,8 +96,8 @@
 		(start -7 -4)
 		(end 7 12)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
@@ -108,8 +108,8 @@
 		(mid 0 -8.128981)
 		(end -2.031019 -10.16)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "9ea1deb0-b018-4f31-b903-b4f100e1fefd")
@@ -224,20 +224,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user ">"
-		(at -13.25 -8.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "938a523e-f6b5-43c9-a350-482e502a8302")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
